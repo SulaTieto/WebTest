@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>我的个人网站</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <nav>
+                <div class="logo">我的网站</div>
+                <ul class="nav-links">
+                    <li><a href="#home">首页</a></li>
+                    <li><a href="#about">关于</a></li>
+                    <li><a href="#projects">项目</a></li>
+                    <li><a href="#contact">联系</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <section id="home" class="hero">
+            <div class="hero-content">
+                <h1 class="animate-fade-in">欢迎来到我的网站</h1>
+                <p class="subtitle animate-fade-in-delay">探索我的创意世界</p>
+                <button class="cta-button" onclick="scrollToSection('projects')">查看项目</button>
+            </div>
+            <div class="hero-image">
+                <div class="floating-shapes">
+                    <div class="shape shape-1"></div>
+                    <div class="shape shape-2"></div>
+                    <div class="shape shape-3"></div>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="about">
+            <h2>关于我</h2>
+            <div class="about-content">
+                <div class="about-card">
+                    <div class="icon">🎨</div>
+                    <h3>创意设计</h3>
+                    <p>热爱设计，追求美学与功能的完美结合</p>
+                </div>
+                <div class="about-card">
+                    <div class="icon">💻</div>
+                    <h3>技术开发</h3>
+                    <p>专注于前端开发，创造流畅的用户体验</p>
+                </div>
+                <div class="about-card">
+                    <div class="icon">🚀</div>
+                    <h3>持续学习</h3>
+                    <p>不断探索新技术，追求卓越与创新</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="projects">
+            <h2>我的项目</h2>
+            <div class="project-grid">
+                <div class="project-card">
+                    <div class="project-image" style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);"></div>
+                    <div class="project-info">
+                        <h3>项目一</h3>
+                        <p>这是一个很酷的项目，展示了现代 Web 技术的应用</p>
+                        <div class="project-tags">
+                            <span class="tag">HTML</span>
+                            <span class="tag">CSS</span>
+                            <span class="tag">JavaScript</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image" style="background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);"></div>
+                    <div class="project-info">
+                        <h3>项目二</h3>
+                        <p>响应式设计的完美示例，适配各种设备</p>
+                        <div class="project-tags">
+                            <span class="tag">响应式</span>
+                            <span class="tag">动画</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image" style="background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);"></div>
+                    <div class="project-info">
+                        <h3>项目三</h3>
+                        <p>创新的交互设计，提供卓越的用户体验</p>
+                        <div class="project-tags">
+                            <span class="tag">UI/UX</span>
+                            <span class="tag">设计</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="contact">
+            <h2>联系我</h2>
+            <div class="contact-content">
+                <p>如果您有任何问题或想法，欢迎与我联系！</p>
+                <div class="contact-methods">
+                    <div class="contact-item">
+                        <div class="contact-icon">📧</div>
+                        <p>your-email@example.com</p>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">🐙</div>
+                        <p>github.com/yourusername</p>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">🌐</div>
+                        <p>www.yourwebsite.com</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <footer>
+            <p>&copy; 2026 我的网站. 保留所有权利.</p>
+            <p class="footer-note">使用 GitHub Pages 免费托管</p>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
